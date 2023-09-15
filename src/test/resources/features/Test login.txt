@@ -1,0 +1,24 @@
+##Date: 15/09/2023
+#@SmokeScenerio
+#Feature: feature to check login functionality
+#
+#  @SmokeTest
+#  Scenario: Check login is successful with valid credentials
+#    Given user is on login page
+#    When user enters username and password
+#    And clicks on the login button
+#    Then user is navigated to the home page
+#
+#
+#
+##  Scenario Outline: Check login is successful with valid credentials
+##
+##    Given user is on login page
+##    When user enters <username> and <password>
+##    And clicks on the login button
+##    Then user is navigated to the home page
+##    Examples:
+##      | username | password |
+##      | user1 | password1 |
+##      | user3 | password2 |
+##      | admin | admin |
