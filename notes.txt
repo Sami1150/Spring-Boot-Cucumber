@@ -1,0 +1,36 @@
+***Continue from Video 6***
+Helping material:
+    -- https://www.youtube.com/playlist?list=PLhW3qG5bs-L_mFHirOLEYJ7X2rIXu8SR2
+    -- https://practicetestautomation.com/practice-test-login/
+    -- https://regexone.com/
+    -- https://automationstepbystep.com/
+
+To Do's
+    -- What is Data Driven Testing
+    -- "Xpath and Web Locators" on "Automation Step By Step" website
+
+System Testing
+-- Create features folder under src/test/resources
+-- Write whatever features there like search.feature
+-- Create StepDefinitions folder under test/java/defaultpackage.
+-- Create java class for those defined features like searchSteps.java and define those features
+    -- You may automate these steps using selenium (You may see files for help!)
+        --Add "drivers" folder under src/test/resources and add the downloaded chromedriver there.
+#NOTE:
+    -- For many feature files, you won't need to run all steps file or feature files individually.
+    -- Create TestRunner class under StepDefinitions folder
+    -- Add necessary @Annotations:
+        -- @RunWith(Cucumber.class)
+        -- @CucumberOptions(features = "src/test/resources/features", glue={"com.cucumber.StepDefinitions"})
+    -- Run this class to run all feature files!
+
+#NOTE:
+    -- No use of src/main file!
+    -- Get drivers from:
+        -- https://googlechromelabs.github.io/chrome-for-testing/
+    -- https://www.selenium.dev/
+#Practice Sites
+    -- https://the-internet.herokuapp.com/
+    -- https://artoftesting.com/samplesiteforselenium
+    -- https://seleniumbase.io/demo_page
+    -- https://www.testyou.in/Login.aspx
